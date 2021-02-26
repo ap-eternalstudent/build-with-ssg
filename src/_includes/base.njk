@@ -11,8 +11,14 @@
       margin: 0 auto;
       text-align: center;
     }
+    li {
+     list-style: none
+    }
   </style>
   <body>
+    <header>
+      <a href='/'>Your Page</a> | <a href='/about'>About this page of yours</a>
+    </header>
     {{ content | safe }}
   </body>
 </html>
